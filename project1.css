@@ -1,0 +1,87 @@
+
+        .myDiv {
+            border: 5px outset rgb(243, 204, 204);
+            background-color: rgb(214, 237, 245);    
+            text-align: center;
+          }
+  
+  .signup{
+    float:right;
+      border: 5px outset rgb(100, 204, 204);
+      background-color: rgb(230, 215, 228);    
+      height: 750px;
+    width: 875px;
+    }
+    .butt{
+    
+      border: 5px outset rgb(100, 204, 204);
+      background-color: rgb(214, 237, 245);    
+    }
+    .align{
+      flex-basis: 1000px;
+    }
+    input[type=text],select{
+      width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+    }
+    input[type=email],submit{
+      width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+    }
+    input[type=submit]{
+      width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background:rgb(100, 248, 87)
+    }
+    input[type=tel]{
+      width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+    }
+    .input[type=number]{
+      width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+    }
+    .button {
+      background-color: #19b61e; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 50px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-bottom: 3px solid transparent;
+    }
+    .button:hover{
+      background-color: #dd10f0;
+      border-bottom: 3px solid red;
+    }
+    .input:empty{
+      border: rgb(238, 22, 33);
+    }
